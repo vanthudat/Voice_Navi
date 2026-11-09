@@ -106,8 +106,3 @@ python3 -m tb4_voice_navigation.segment_map \
   --definitions config/region_definitions.yaml \
   --output maps
 ```
-
-## Nguồn tài nguyên
-
-- Căn nhà: [AWS RoboMaker Small House](https://github.com/aws-robotics/aws-robomaker-small-house-world/tree/ros2); giấy phép tại `worlds/AWS-LICENSE.txt`.
-- Bản đồ SLAM có sẵn: [mobile-arm-sim](https://github.com/redddddyyyyy/mobile-arm-sim#mapping), đã xử lý chấm nhỏ và phân vùng cho dự án.
