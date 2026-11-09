@@ -1,0 +1,136 @@
+frame_id: map
+map_yaml: map.yaml
+method: manual_polygons
+robot_clearance: 0.3
+start:
+- -0.6
+- 0.0
+regions:
+- id: A
+  name: Phòng ngủ
+  aliases:
+  - khu vực A
+  - khu A
+  - phòng A
+  - a
+  - ây
+  label: 1
+  polygon:
+  - - -9.5
+    - -1.5
+  - - -2.6
+    - -1.5
+  - - -2.6
+    - 3.2
+  - - -9.5
+    - 3.2
+  goal:
+    x: -5.945
+    y: 0.45500000000000096
+    yaw: 0.0
+  clearance_m: 0.6000000238418579
+- id: B
+  name: Phòng sinh hoạt
+  aliases:
+  - khu vực B
+  - khu B
+  - phòng B
+  - b
+  - bê
+  - phòng phụ
+  label: 2
+  polygon:
+  - - -9.5
+    - -5.6
+  - - -2.6
+    - -5.6
+  - - -2.6
+    - -1.5
+  - - -9.5
+    - -1.5
+  goal:
+    x: -5.945
+    y: -3.4949999999999997
+    yaw: 0.0
+  clearance_m: 0.9013878107070923
+- id: C
+  name: Hành lang
+  aliases:
+  - khu vực C
+  - khu C
+  - c
+  - xê
+  - sê
+  - lối đi
+  - hành lang C
+  label: 3
+  polygon:
+  - - -2.6
+    - -5.6
+  - - -1.1
+    - -5.6
+  - - -1.1
+    - 3.2
+  - - -2.6
+    - 3.2
+  goal:
+    x: -1.8449999999999998
+    y: -1.1449999999999996
+    yaw: 0.0
+  clearance_m: 1.0
+- id: D
+  name: Phòng khách
+  aliases:
+  - khu vực D
+  - khu D
+  - phòng D
+  - d
+  - dê
+  label: 4
+  polygon:
+  - - -1.1
+    - -5.6
+  - - 4.8
+    - -5.6
+  - - 4.8
+    - 3.2
+  - - 4.7
+    - 3.2
+  - - 4.7
+    - 5.6
+  - - -2.6
+    - 5.6
+  - - -2.6
+    - 3.2
+  - - -1.1
+    - 3.2
+  goal:
+    x: 1.6550000000000011
+    y: 0.20500000000000096
+    yaw: 0.0
+  clearance_m: 1.0700467824935913
+- id: E
+  name: Nhà bếp
+  aliases:
+  - khu vực E
+  - khu E
+  - phòng E
+  - e
+  - phòng bếp
+  - bếp
+  - khu ăn uống
+  label: 5
+  polygon:
+  - - 4.8
+    - -5.6
+  - - 9.5
+    - -5.6
+  - - 9.5
+    - 3.2
+  - - 4.8
+    - 3.2
+  goal:
+    x: 7.004999999999999
+    y: -1.1449999999999996
+    yaw: 1.5708
+  clearance_m: 1.2010412216186523

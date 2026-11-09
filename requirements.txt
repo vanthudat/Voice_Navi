@@ -1,0 +1,9 @@
+# Nếu môi trường đã có OpenCV thì dùng lại, tránh cài chồng nhiều wheel cv2.
+numpy>=1.23,<2
+opencv-python>=4.7,<4.12
+PyYAML>=6,<7
+faster-whisper==1.2.1
+webrtcvad-wheels==2.0.14
+sounddevice>=0.4.6,<0.6
+
+# Giao diện desktop: cài bằng apt install python3-pyqt5.
